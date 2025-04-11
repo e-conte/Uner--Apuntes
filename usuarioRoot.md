@@ -30,12 +30,12 @@ No todos los usuarios pueden usar `sudo`. Los usuarios autorizados se llaman **s
    apt-get update
 Resultado: Error "permiso denegado".
 
-Con sudo:
+1.Con sudo:
 
-bash
-Copy
+ ```bash
 sudo apt-get update
+ ```
 El sistema pide la contraseña del usuario y ejecuta el comando.
 
-Conclusión
+### Conclusión
 El usuario root es una herramienta poderosa pero riesgosa. El comando sudo ofrece una alternativa segura para realizar tareas administrativas sin activar la cuenta root, minimizando el riesgo de errores críticos.
