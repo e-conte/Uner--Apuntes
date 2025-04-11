@@ -60,39 +60,40 @@ Muestra documentación extensa sobre comandos, archivos o funciones.
 Ejemplo:  
 ```bash
 man ls
+```
 Navegar con las teclas Página Arriba/Abajo.
 
 Salir presionando q.
 
-b. Opción --help
+b. Opción `--help`
 Muestra información breve sobre el uso del comando.
 Ejemplo:
 
-bash
-Copy
+```bash
 ls --help
+```
 c. Comando whatis
 Proporciona una descripción muy breve del comando.
 Ejemplo:
 
-bash
-Copy
+```bash
 whatis ls
+```
 7. Ejemplo Práctico
 Navegar al directorio Documentos:
 
-bash
-Copy
+```bash
 cd Documentos
+```
 Listar archivos:
 
-bash
-Copy
+```bash
 ls
+```
 Ver contenido de un archivo:
 
-bash
-Copy
+```bash
 cat archivo1.txt
+```
 Conclusión
 La terminal de Linux es una herramienta poderosa para interactuar con el sistema operativo. Dominar sus conceptos básicos, estructura de comandos y opciones de ayuda permite realizar tareas de manera eficiente y aprovechar al máximo las capacidades del sistema.
